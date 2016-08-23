@@ -15,6 +15,7 @@
 		185C96A21D6BEA7C00B2C196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C96A01D6BEA7C00B2C196 /* LaunchScreen.storyboard */; };
 		185C96AD1D6BEA7D00B2C196 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C96AC1D6BEA7D00B2C196 /* __Tests.m */; };
 		185C96B81D6BEA7D00B2C196 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C96B71D6BEA7D00B2C196 /* __UITests.m */; };
+		185C96C71D6BF52B00B2C196 /* TableViewControllsdfasd.m in Sources */ = {isa = PBXBuildFile; fileRef = 185C96C61D6BF52B00B2C196 /* TableViewControllsdfasd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		185C96B31D6BEA7D00B2C196 /* 测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185C96B71D6BEA7D00B2C196 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		185C96B91D6BEA7D00B2C196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185C96C51D6BF52B00B2C196 /* TableViewControllsdfasd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllsdfasd.h; sourceTree = "<group>"; };
+		185C96C61D6BF52B00B2C196 /* TableViewControllsdfasd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllsdfasd.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				185C96A01D6BEA7C00B2C196 /* LaunchScreen.storyboard */,
 				185C96A31D6BEA7C00B2C196 /* Info.plist */,
 				185C96921D6BEA7C00B2C196 /* Supporting Files */,
+				185C96C51D6BF52B00B2C196 /* TableViewControllsdfasd.h */,
+				185C96C61D6BF52B00B2C196 /* TableViewControllsdfasd.m */,
 			);
 			path = "测试";
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185C969A1D6BEA7C00B2C196 /* ViewController.m in Sources */,
+				185C96C71D6BF52B00B2C196 /* TableViewControllsdfasd.m in Sources */,
 				185C96971D6BEA7C00B2C196 /* AppDelegate.m in Sources */,
 				185C96941D6BEA7C00B2C196 /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				185C96BE1D6BEA7D00B2C196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185C96BF1D6BEA7D00B2C196 /* Build configuration list for PBXNativeTarget "测试Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				185C96C11D6BEA7D00B2C196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185C96C21D6BEA7D00B2C196 /* Build configuration list for PBXNativeTarget "测试UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				185C96C41D6BEA7D00B2C196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
